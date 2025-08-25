@@ -1,4 +1,5 @@
 function FindProxyForURL(url, host) {
   // Route all traffic through German proxies, fallback to direct connection
-  return "PROXY 46.4.96.137:1080; PROXY 185.93.88.18:8080; DIRECT";
+  return "PROXY 178.63.66.84:3128; PROXY 88.99.7.143:8080; DIRECT";
+
 }
